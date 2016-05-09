@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+__author__ = 'djstava@gmail.com'
+
+# ZX2000 flashmap address
+PMP_ADDRESS = "pmp"
+SECBOOT_ADDRESS = "1o0"
+SECOS_ADDRESS = "2o0"
+SECOS_BACK_ADDRESS = "2o800"
+UBOOT_ADDRESS = "1o400"
+UBOOT_BACK_ADDRESS = "1oc00"
+SPLASH_ADDRESS = "Oo3000"
+
+# OTALOADER_BAK_ADDRESS = "0o17000"
+# SYSINFO_RO_ADDRESS = "0o27000"
+# SYSINFO_RW_ADDRESS = "0o2B000"
+# CADATA_ADDRESS = "Oo2F000"
+
+OTALOADER_ADDRESS = "otaloader"
+IPLOADER_ADDRESS = "iploader"
+FACTORYTEST_ADDRESS = "otaloaderbak"
+
+BOOT_ADDRESS = "boot"
+SYSTEM_ADDRESS = "system"
+CACHE_ADDRESS = "cache"
+USERDATA_ADDRESS = "userdata"
+DVBDATA_ADDRESS = "dvbdata"
+RECOVERY_ADDRESS = "recovery"
+
+XML_CONFIG_FILE = 'config.xml'
